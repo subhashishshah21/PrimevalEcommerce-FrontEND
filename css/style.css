@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1% 4%;
+    background-color: #1e1f29;
+}
+.top-header-1{
+    position: relative;
+}
+.top-header-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+
+}
+.top-header-1 img{
+    width: 20px;
+    height: auto;
+}
+.top-header-2 img{
+    width: 20px;
+    height: auto;
+}
+.top-header-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+}
+/*@media (max-width: 700px) {*/
+/*    .top-header{*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*    .top-header-1 a{*/
+/*        font-size: 10px;*/
+/*    }*/
+/*    .top-header-2 a{*/
+/*        font-size: 10px;*/
+/*    }*/
+
+/*}*/
+
+/*second header css*/
+.mid-header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1% 4%;
+    background-color: #15161d;
+
+}
+.logo img{
+    height: auto;
+    width: 100px;
+
+}
+.search-bar label {
+    display: flex;
+
+}
+.search-bar label{
+
+}
+.search-bar label input {
+    width: 375px;
+    padding: 4px 1px;
+    border-radius: 5px;
+}
+.btn-1{
+    border-radius: 5px;
+    padding: 4px 15px;
+    background-color: #d10024;
+    color: white;
+    border: none;
+}
+.third-section img{
+    width: auto;
+    height: 15px;
+    margin: auto;
+}
+.third-section a{
+    margin-left: 10px;
+    align-items: center;
+    vertical-align: center;
+    text-decoration: none;
+    color: white;
+}
+/*@media (max-width: 700px) {*/
+/*    .mid-header{*/
+/*        flex-wrap: wrap;*/
+
+/*    }*/
+/*    .logo img{*/
+/*        width: 100%;*/
+/*        height: 20px;*/
+/*    }*/
+
+/*}*/
+
+/*css for navigation bar*/
+.third-header{
+    width: 100%;
+    padding: 1% 4%;
+    background-color: #d10024;
+    margin: auto;
+    height: 7vh;
+
+
+}
+.list ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    vertical-align: center;
+
+}
+.list ul li{
+
+
+}
+.list ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+ /*forth header css*/
+.discount-des{
+    width: 100%;
+    display: flex;
+    background-color: #343e49;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 6px 6px;
+    justify-items: center;
+    justify-content: center;
+}
+.description{
+
+}
+#shop-now{
+    text-decoration-color: white;
+    color: white;
+}
+/*css for count down clock*/
+.js{
+    width: 100%;
+    height: 50vh;
+    background-image: url('/images/hotdeals.jpg');
+    background-size: cover;
+
+}
+.offer-timer{
+    display: flex;
+    padding: 5% 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+
+}
+
+
+@media all and (max-width: 750px) {
+    html{
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .top-header-1 img{
+        width: 15px;
+        height: auto;
+    }
+    .top-header-1 a{
+        font-weight: 200;
+        font-size: 10px;
+
+    }
+    .top-header-2 img{
+        width: 15px;
+        height: auto;
+    }
+    .top-header-2 a{
+        font-weight: 200;
+        font-size: 10px;
+    }
+    .discount-des{
+        font-size: 10px;
+        font-weight: 100;
+        padding: 6px 6px;
+    }
+    .third-header{
+        width: 100%;
+        padding: 1% 4%;
+        background-color: #d10024;
+        margin: auto;
+        height: 4vh;
+
+
+    }
+
+    .list ul li a{
+        display: flex;
+        font-size: 10px;
+        font-weight: 300;
+        text-decoration: none;
+        color: white;
+    }
+    .mid-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 3% 6%;
+        background-color: #15161d;
+
+    }
+    .third-section{
+        padding: 3% 4%;
+    }
+}
